@@ -27,7 +27,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     padding-right: 20px;
 }
 nav a{
@@ -135,9 +135,7 @@ footer img{
 }
 
 @media (max-width:600px){
-    nav > ul {
-        display: none;
-    }
+    
    
    
 
@@ -147,24 +145,24 @@ footer img{
         display: flex;
         justify-content: end;
         align-items: center;
-        padding: 10px 30px;
+        padding: 0px 30px;
         /* background: red; */
         height: 9.2%;
         
      } 
-    /* nav ul{
+    nav ul{
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
     }
     nav a{
-        font-size: 2.5vh;
+        font-size: 2vh;
         text-transform: capitalize;
         text-decoration: none;
         color: black;
         font-family: system-ui;
-    } */ */
+    } 
     nav div{
         background: black;
         height: 40px;
@@ -182,7 +180,7 @@ footer img{
         display: none;
     }
     h1{
-         padding-bottom: 0;
+        padding-top: 15px;
         font-size: 5vh;
        
     }
@@ -195,7 +193,7 @@ footer img{
         width: 100%;
         height: 39.7%;
         padding: 0px 20px;
-        padding-top: 17px;
+        padding-top: 5px;
         
     }
     section p{
@@ -206,11 +204,12 @@ footer img{
         font-size: 2vh;
         text-transform: capitalize;
         line-height: 1.6;
+        height: 50%;
     
     }
     section .right{
      /* background: red; */
-     height: 100%;
+     height: 50%;
      width: 100%;
      display: flex;
      flex-direction: column;
@@ -222,7 +221,7 @@ footer img{
         align-items: center;
         justify-content: space-between;
         /* background: #ae6464; */
-        height: 30%;
+        height: 100%;
         width: 100%;
         padding: 5px;
         border-top: 2px solid black;
