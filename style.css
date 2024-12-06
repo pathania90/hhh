@@ -9,8 +9,8 @@ html,body{
     width: 100%;
 }
 .main{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
   background: seashell;
     
 }
@@ -20,14 +20,15 @@ nav{
     align-items: center;
     padding: 10px 30px;
     /* background: red; */
-    height: 8vh;
+    height: 10%;
     
 }
 nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
+    padding-right: 20px;
 }
 nav a{
     font-size: 2.5vh;
@@ -69,7 +70,7 @@ section{
     justify-content: space-between;
     /* background: gray; */
     width: 100%;
-    height: 30vh;
+    height: 30.7%;
     padding: 0px 20px;
     padding-top: 20px;
 }
@@ -122,7 +123,8 @@ section .right{
     
 }
 footer{
-    height: 31.45vh;
+    
+   height: 32%;
     width: 100vw;
     background: green;
 }
@@ -136,19 +138,45 @@ footer img{
     nav > ul {
         display: none;
     }
-     button{
-        background: transparent;
-        border: none;
-        font-size: 20px;
-     }
-    nav> button{
-        display: flex;
-    }
+   body{
+    background:seagreen;
+   }
+   
 
 
   
- 
- 
+     nav{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 10px 30px;
+        /* background: red; */
+        height: 9.2%;
+        
+     } 
+    /* nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    nav a{
+        font-size: 2.5vh;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: black;
+        font-family: system-ui;
+    } */ */
+    nav div{
+        background: black;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     nav div i{
         color: white;
     }
@@ -156,36 +184,34 @@ footer img{
         display: none;
     }
     h1{
-      
-        /* background: green; */
+         padding-bottom: 0;
         font-size: 5vh;
-     
-        
-        
+       
     }
     section{
         display: flex;
         justify-content: space-between;
         /* background: gray; */
         width: 100%;
-        height: 20vh;
+        height: 33.7%;
         padding: 0px 20px;
-        padding-top: 20px;
+        padding-top: 17px;
+        margin-bottom: 0px;
     }
     section p{
         padding-top: 19px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        width: 50%;
+        width: 55%;
         color: black;
-        font-size: 3vw;
+        font-size: 1.5vh;
         text-transform: capitalize;
-        line-height: 1.2;
+        line-height: 1.6;
     
     }
     section .right{
      /* background: red; */
      height: 100%;
-     width: 30%;
+     width: 45%;
      display: flex;
      flex-direction: column;
      justify-content: end;
@@ -203,7 +229,7 @@ footer img{
     .line a,i{
         text-transform: capitalize;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.5vh;
+        font-size: 2vh;
         color:#333;
         text-decoration: none;
         position: relative;
@@ -221,7 +247,8 @@ footer img{
         
     }
     footer{
-        height: 31.45vh;
+    
+       height: 40%;
         width: 100vw;
         background: green;
     }
