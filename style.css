@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+  background: seashell;
+    
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 30px;
+    /* background: red; */
+    height: 8vh;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    font-size: 2.5vh;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-family: system-ui;
+}
+nav div{
+    background: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav div i{
+    color: white;
+}
+nav button{
+    display: none;
+}
+h1{
+    padding-top: 20px;
+    text-transform: capitalize;
+    /* background: green; */
+    font-size: 8vh;
+    font-weight: 500;
+    
+    font-family: system-ui;
+    padding-left: 20px;
+    line-height: 1;
+    text-align: left;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    /* background: gray; */
+    width: 100%;
+    height: 30vh;
+    padding: 0px 20px;
+    padding-top: 20px;
+}
+section p{
+    padding-top: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    color: black;
+    font-size: 1.3vw;
+    text-transform: capitalize;
+    line-height: 1.2;
+
+}
+section .right{
+ /* background: red; */
+ height: 100%;
+ width: 30%;
+ display: flex;
+ flex-direction: column;
+ justify-content: end;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: #ae6464; */
+    height: 30%;
+    width: 100%;
+    padding: 5px;
+    border-top: 2px solid black;
+}
+.line a,i{
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    color:#333;
+    text-decoration: none;
+    position: relative;
+}
+#under{
+    color: black;
+}
+#under::before{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    
+}
+footer{
+    height: 31.45vh;
+    width: 100vw;
+    background: green;
+}
+footer img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:600px){
+    nav > ul {
+        display: none;
+    }
+     button{
+        background: transparent;
+        border: none;
+        font-size: 20px;
+     }
+    nav> button{
+        display: flex;
+    }
+
+
+  
+ 
+ 
+    nav div i{
+        color: white;
+    }
+    nav button{
+        display: none;
+    }
+    h1{
+      
+        /* background: green; */
+        font-size: 5vh;
+     
+        
+        
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+        /* background: gray; */
+        width: 100%;
+        height: 20vh;
+        padding: 0px 20px;
+        padding-top: 20px;
+    }
+    section p{
+        padding-top: 19px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 50%;
+        color: black;
+        font-size: 3vw;
+        text-transform: capitalize;
+        line-height: 1.2;
+    
+    }
+    section .right{
+     /* background: red; */
+     height: 100%;
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+    }
+    .line{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background: #ae6464; */
+        height: 30%;
+        width: 100%;
+        padding: 5px;
+        border-top: 2px solid black;
+    }
+    .line a,i{
+        text-transform: capitalize;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.5vh;
+        color:#333;
+        text-decoration: none;
+        position: relative;
+    }
+    #under{
+        color: black;
+    }
+    #under::before{
+        content: '';
+        height: 1px;
+        width: 100%;
+        background: #000;
+        position: absolute;
+        bottom: 0;
+        
+    }
+    footer{
+        height: 31.45vh;
+        width: 100vw;
+        background: green;
+    }
+    footer img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
