@@ -11,7 +11,7 @@ html,body{
 .main{
     height: 100vh;
     width: 100vw;
-  
+  background: seashell;
     
 }
 nav{
@@ -126,7 +126,7 @@ footer{
     
    height: 32%;
     width: 100vw;
-    background: green;
+
 }
 footer img{
     object-fit: cover;
@@ -138,9 +138,7 @@ footer img{
     nav > ul {
         display: none;
     }
-   body{
-    background:seagreen;
-   }
+   
    
 
 
@@ -190,20 +188,22 @@ footer img{
     }
     section{
         display: flex;
+        flex-direction: column;
+        gap: 10px;
         justify-content: space-between;
         /* background: gray; */
         width: 100%;
         height: 33.7%;
         padding: 0px 20px;
         padding-top: 17px;
-        margin-bottom: 0px;
+        
     }
     section p{
         padding-top: 19px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        width: 55%;
+        width: 90%;
         color: black;
-        font-size: 1.5vh;
+        font-size: 2vh;
         text-transform: capitalize;
         line-height: 1.6;
     
@@ -211,10 +211,11 @@ footer img{
     section .right{
      /* background: red; */
      height: 100%;
-     width: 45%;
+     width: 100%;
      display: flex;
      flex-direction: column;
      justify-content: end;
+     padding-bottom: 10px;
     }
     .line{
         display: flex;
@@ -250,11 +251,17 @@ footer img{
     
        height: 40%;
         width: 100vw;
-        background: green;
+        
     }
     footer img{
         object-fit: cover;
         height: 100%;
         width: 100%;
+    }
+}
+
+@media (max-width:769px){
+    section p{
+        font-size: 2vh;
     }
 }
